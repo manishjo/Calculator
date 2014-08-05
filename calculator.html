@@ -2,50 +2,51 @@
 <head>
 	<title>Calculator</title>
 	<script type="text/javascript" src="calculatorScript.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<h1>Calculator</h1>
-	<table height="500" width="400" border="2px">
+	<table id="parentTable">
 		<tr>
 			<td>
-				<table bgcolor="yellow" height="100" width="406">
+				<table id="screen">
 					<tr>
 						<td>
 						</td>
 					</tr>
 				</table>
-				<table height="400" width="400">
+				<table id="keypadBody">
 					<tr>
 						<td>
-							<table bgcolor="green" height="400" width="300">
+							<table id="numericKeypad">
 								<tr>
-									<td><input type="button" value="1"style="height:50px; width:50px"></td>
-									<td><input type="button" value="2"style="height:50px; width:50px"></td>
-									<td><input type="button" value="3"style="height:50px; width:50px"></td>
+									<td><input class="numericButton" type="button" value="1"></td>
+									<td><input class="numericButton" type="button" value="2"></td>
+									<td><input class="numericButton" type="button" value="3"></td>
 								</tr>
 								<tr>
-									<td><input type="button" value="4"style="height:50px; width:50px"></td>
-									<td><input type="button" value="5"style="height:50px; width:50px"></td>
-									<td><input type="button" value="6"style="height:50px; width:50px"></td>
+									<td><input class="numericButton" type="button" value="4"></td>
+									<td><input class="numericButton" type="button" value="5"></td>
+									<td><input class="numericButton" type="button" value="6"></td>
 								</tr>
 								<tr>
-									<td><input type="button" value="7"style="height:50px; width:50px"></td>
-									<td><input type="button" value="8"style="height:50px; width:50px"></td>
-									<td><input type="button" value="9"style="height:50px; width:50px"></td>
+									<td><input class="numericButton" type="button" value="7"></td>
+									<td><input class="numericButton" type="button" value="8"></td>
+									<td><input class="numericButton" type="button" value="9"></td>
 								</tr>
 								<tr>
-									<td><input type="button" value="."style="height:50px; width:50px"></td>
-									<td><input type="button" value="0"style="height:50px; width:50px"></td>
-									<td><input type="button" value="="style="height:50px; width:50px"></td>
+									<td><input class="numericButton" type="button" value="."></td>
+									<td><input class="numericButton" type="button" value="0"></td>
+									<td><input class="numericButton" type="button" value="="></td>
 								</tr>
 							</table>
 						</td>
 						<td>
-							<table bgcolor="red" height="400" width="100">
-								<tr><td><input type="button" value="+"style="height:40px; width:60px"></td></tr>
-								<tr><td><input type="button" value="-"style="height:40px; width:60px"></td></tr>
-								<tr><td><input type="button" value="*"style="height:40px; width:60px"></td></tr>
-								<tr><td><input type="button" value="/"style="height:40px; width:60px"></td></tr>
+							<table id="opratorKeypad">
+								<tr><td><input class="opratorButton" type="button" value="+"></td></tr>
+								<tr><td><input class="opratorButton" type="button" value="-"></td></tr>
+								<tr><td><input class="opratorButton" type="button" value="*"></td></tr>
+								<tr><td><input class="opratorButton" type="button" value="/"></td></tr>
 							</table>
 						</td>
 					</tr>

@@ -1,3 +1,7 @@
+p{
+	font-size: 60px;
+	text-align: right;
+}
 #parentTable{
 	height: 500px;
 	width: 400px;
@@ -28,6 +32,9 @@
 .opratorButton{
 	height: 40px;
 	width: 60px;
+}
+.centralAlign{
+	text-align: center;
 }
 
 

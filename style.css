@@ -1,40 +1,5 @@
-p{
-	font-size: 60px;
-	text-align: right;
+.box{
+background-color: blue;
+height:170;
+width: 180;
 }
-#parentTable{
-	height: 500px;
-	width: 400px;
-}
-#screen{
-	height:100px; 
-	width:406px;
-	background: blue;
-}
-#keypadBody{
-	height: 400px;
-	width: 400px;
-}
-#numericKeypad{
-	background: red;
-	height: 400px;
-	width: 300px;
-}
-#opratorKeypad{
-	background: yellow;
-	height: 400px;
-	width: 100px;
-}
-.numericButton{
-	height: 50px;
-	width: 50px;
-}
-.opratorButton{
-	height: 40px;
-	width: 60px;
-}
-.centralAlign{
-	text-align: center;
-}
-
-

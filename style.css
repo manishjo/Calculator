@@ -1,5 +1,32 @@
 .box{
-background-color: blue;
-height:210;
-width: 180;
+	background-color: gray;
+	height:330;
+	width: 290;
+	border-radius:8px;	
+}
+.display{
+	position:relative;
+	left:10px;
+	top:20px;
+	height:45px;
+}
+.display input{
+	left:2px;
+	top:2px;
+	height:35px;
+	color:black;
+	background-color:#bccd95;
+	font-size:21px;
+	text-align:right;
+}
+.button{
+	left: 30px;
+	width: 60px;
+	height: 35px;
+	border-radius:8px;
+}
+.keypad{
+	position: relative;
+	top: 10px;
+	left: 15px;
 }
